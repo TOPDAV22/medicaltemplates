@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 0.6;
+    font-family: sans-serif;
+    color: black;
+    /* margin: 0 auto;
+    width: 80%; */
+}
+
+
+.section{
+    position: relative;
+    height: 40pc;
+    background-color: rgb(148 223 234);
+    margin: 0 auto;
+    width: 100%;
+}
+    
+.slide{
+    position: relative;
+    height: 40pc;
+    width: 40%;
+    border-right: 114px solid transparent;
+    border-bottom: 40pc solid #0e6876;
+}
+.log{
+    height: 400px;
+    width: 60%;
+    background-color: white;
+   position: absolute;
+   top: 20%;
+   left: 20%;
+   margin-right: -50%;
+    border-radius: 1rem;
+    display: grid;
+
+  
+}
+.imgside{
+    
+    grid-column-end: 5;
+    grid-column-start: 1;
+    background-image: url(../img/tall.jpg);
+    background-size: cover;
+    border-radius: 1rem 0 0 1rem;
+    background-repeat: no-repeat;
+   
+}
+
+.inputside{
+    grid-column-end: 12;
+    grid-column-start: 5;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 1rem 1rem 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px #f1f1f1f1;
+}
+
+.linkein{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #133135;
+} 
+.input{
+    margin-top: 50px
+    
+    
+}
+
+.inputemail{
+    margin: 10px;
+    color: teal;
+    background-color: #cfeae6;
+    border: #808586 ;
+    width: 20pc;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.button{
+    width: 80px;
+    height: 40px;
+    background-color: #0e6876;
+    margin-top: 20px;
+    border: teal;
+    color: white;
+}
+
+.set{
+    color: teal; 
+    margin-left: 10px;
+}
